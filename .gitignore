@@ -1,0 +1,45 @@
+# --- Python / general ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+myenv/
+
+# Packaging / build artifacts
+build/
+dist/
+*.spec
+
+# PyInstaller
+*.manifest
+*.spec
+*.log
+*.toc
+*.pkg
+*.pyz
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+
+# --- Project-specific large/binary assets you shouldn't push ---
+# Vosk speech model (very large) - keep out of git
+assets/vosk-model*/
+assets/**/vosk-model*/
+
+# Optional: if you generate any local output folders
+output/
+tmp/
+temp/
